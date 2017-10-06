@@ -6,7 +6,7 @@ class Splash extends Component {
   render() {
     return (
       <div className="Splash">
-        <img src={bull} alt="" />
+        <img src={bull} alt="Bull Marget Logo" />
         <div>
           <a href="#">Buy a Home</a>
           <a href="#">Sell a Home</a>

@@ -6,12 +6,15 @@ body {
   flex-direction: column;
   align-items: center;
   height: 40vh; }
+  .Splash img {
+    width: 280px;
+    height: 170px; }
   .Splash a {
     width: 15em;
     height: 3em;
     text-decoration: none;
-    color: white;
-    border: 0.2em solid white;
-    border-radius: 0.2em;
+    color: #f5eceb;
+    border: 0.15em solid #f5eceb;
+    border-radius: 0.3em;
     padding: 0.5em;
     margin: 1em; }

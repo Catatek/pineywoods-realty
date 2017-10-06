@@ -1,0 +1,15 @@
+.Nav {
+  width: 100%;
+  background-color: #f5eceb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: thin solid #8c8685; }
+  .Nav img {
+    width: 180px;
+    height: 50px;
+    margin-left: 2em; }
+  .Nav a {
+    margin-right: 2em;
+    text-decoration: none;
+    color: #303130; }

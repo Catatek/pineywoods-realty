@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
 
 import Splash from '../Splash/Splash';
+import Nav from '../Nav/Nav';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Splash />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Splash />
+          <Nav />
+        </div>
+      </BrowserRouter>
     );
   }
 }
