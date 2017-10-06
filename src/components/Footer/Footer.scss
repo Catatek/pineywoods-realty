@@ -1,0 +1,32 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+
+    i {
+      color: black;
+      margin-right: 0.5em;
+    }
+  }
+
+  .footerLogo {
+    img {
+      width: 10em;
+    }
+    p {
+      font-size: 12px;
+      width: 20em;
+    }
+  }
+
+  .social {
+    i {
+      margin-right: 0.5em;
+    }
+  }
+}
