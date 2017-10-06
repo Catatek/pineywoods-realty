@@ -16,12 +16,11 @@ $white: #f5eceb;
   .contactInfo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2em;
+    justify-content: center;
 
     img {
-      width: 25em;
-      height: 15em;
+      width: 20em;
+      height: 10em;
     }
 
     form {
@@ -33,7 +32,8 @@ $white: #f5eceb;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding: 4em;
+      padding-right: 10em;
+      padding-top: 3em;
       p {
         width: 20em;
         text-align: left;

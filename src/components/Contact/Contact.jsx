@@ -8,13 +8,9 @@ class Contact extends Component {
       <div className="Contact">
         <h2>Contact US</h2>
         <div className="contactInfo">
-          <img src={closing} alt="" />
           <div className="info">
-            <p>
-              Adipisicing ut sint anim Lorem irure mollit enim officia qui ullamco labore commodo. Amet amet magna
-              dolore cupidatat sunt pariatur veniam ex laborum aute. Laborum ullamco exercitation pariatur et sit velit
-              cillum amet elit reprehenderit commodo Lorem commodo nulla nisi. Aliquip ex reprehenderit mollit proident
-            </p>
+            <img src={closing} alt="" />
+            <p>Adipisicing ut sint anim Lorem irure mollit enim officia qui ullamco labore commodo. Amet amet magna</p>
             <div className="icon">
               <a href="tel:727-709-2806">
                 <i className="fa fa-phone-square fa-2x devContact" aria-hidden="true" />
@@ -22,7 +18,7 @@ class Contact extends Component {
               <span>000-000-0000</span>
             </div>
             <div className="icon">
-              <a href="tel:727-709-2806">
+              <a href="tel:000-000-0000">
                 <i className="fa fa-envelope fa-2x devContact" aria-hidden="true" />
               </a>
               <span>email@email.com</span>

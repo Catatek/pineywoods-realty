@@ -17,7 +17,7 @@ class Footer extends Component {
             <span>000-000-0000</span>
           </div>
           <div className="icon">
-            <a href="email ">
+            <a href="email: email@email.com">
               <i className="fa fa-envelope fa-2x devContact" aria-hidden="true" />
             </a>
             <span>email@email.com</span>

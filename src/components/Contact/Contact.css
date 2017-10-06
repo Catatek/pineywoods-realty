@@ -10,11 +10,10 @@
   .Contact .contactInfo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2em; }
+    justify-content: center; }
     .Contact .contactInfo img {
-      width: 25em;
-      height: 15em; }
+      width: 20em;
+      height: 10em; }
     .Contact .contactInfo form {
       display: flex;
       flex-direction: column; }
@@ -22,7 +21,8 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding: 4em; }
+      padding-right: 10em;
+      padding-top: 3em; }
       .Contact .contactInfo .info p {
         width: 20em;
         text-align: left; }

@@ -8,7 +8,8 @@
     flex-direction: column; }
     .Footer .contact i {
       color: black;
-      margin-right: 0.5em; }
+      margin-right: 0.5em;
+      margin-top: 0.2em; }
   .Footer .footerLogo img {
     width: 10em; }
   .Footer .footerLogo p {
