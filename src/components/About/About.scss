@@ -1,0 +1,40 @@
+$grey: #8b8684;
+$white: #f5eceb;
+
+.About {
+  display: flex;
+  align-items: center;
+  background-color: $white;
+  border: thin solid $grey;
+  border-top: none;
+
+  .hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // width: 30%;
+    margin: 1em 5em;
+
+    h2 {
+      margin: 0.2em;
+    }
+  }
+
+  .hello > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 0.15em solid black;
+    width: 6em;
+    margin-top: 0.3em;
+    border-radius: 0.3em;
+    padding: 0.2em;
+  }
+
+  img {
+    width: 40%;
+    height: 100%;
+  }
+}

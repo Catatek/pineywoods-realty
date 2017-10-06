@@ -1,0 +1,27 @@
+.About {
+  display: flex;
+  align-items: center;
+  background-color: #f5eceb;
+  border: thin solid #8b8684;
+  border-top: none; }
+  .About .hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 5em; }
+    .About .hello h2 {
+      margin: 0.2em; }
+  .About .hello > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 0.15em solid black;
+    width: 6em;
+    margin-top: 0.3em;
+    border-radius: 0.3em;
+    padding: 0.2em; }
+  .About img {
+    width: 40%;
+    height: 100%; }

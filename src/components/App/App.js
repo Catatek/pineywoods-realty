@@ -4,6 +4,7 @@ import './App.css';
 
 import Splash from '../Splash/Splash';
 import Nav from '../Nav/Nav';
+import About from '../About/About';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <div className="App">
           <Splash />
           <Nav />
+          <About />
         </div>
       </BrowserRouter>
     );
