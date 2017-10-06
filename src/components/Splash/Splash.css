@@ -1,11 +1,9 @@
-body {
-  background-color: #c56b6c; }
-
 .Splash {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 40vh; }
+  height: 40vh;
+  background-color: #c56b6c; }
   .Splash img {
     width: 280px;
     height: 170px; }

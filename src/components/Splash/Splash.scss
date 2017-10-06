@@ -1,15 +1,12 @@
 $red: #c56b6c;
 $white: #f5eceb;
 
-body {
-  background-color: $red;
-}
-
 .Splash {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 40vh;
+  background-color: $red;
 
   img {
     width: 280px;
