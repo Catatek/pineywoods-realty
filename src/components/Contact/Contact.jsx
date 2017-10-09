@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Contact.css';
 import closing from '../../assets/closing.jpg';
 
-const formSubmit = (e) => {
+const formSubmit = e => {
   e.preventDefault();
 
   const name = e.target.elements.name.value;
