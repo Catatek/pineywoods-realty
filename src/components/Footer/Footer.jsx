@@ -31,9 +31,9 @@ class Footer extends Component {
         </div>
 
         <div className="social">
-          <i class="fa fa-facebook-square fa-3x" aria-hidden="true" />
-          <i class="fa fa-instagram fa-3x" aria-hidden="true" />
-          <i class="fa fa-twitter-square fa-3x" aria-hidden="true" />
+          <i className="fa fa-facebook-square fa-3x" aria-hidden="true" />
+          <i className="fa fa-instagram fa-3x" aria-hidden="true" />
+          <i className="fa fa-twitter-square fa-3x" aria-hidden="true" />
         </div>
       </div>
     );

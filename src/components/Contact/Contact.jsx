@@ -2,6 +2,20 @@ import React, { Component } from 'react';
 import './Contact.css';
 import closing from '../../assets/closing.jpg';
 
+const formSubmit = (e) => {
+  e.preventDefault();
+
+  const name = e.target.elements.name.value;
+  const email = e.target.elements.email.value;
+  const phone = e.target.elements.phone.value;
+  const message = e.target.elements.message.value;
+
+  console.log(name);
+  console.log(email);
+  console.log(phone);
+  console.log(message);
+};
+
 class Contact extends Component {
   render() {
     return (
@@ -12,23 +26,23 @@ class Contact extends Component {
             <img src={closing} alt="" />
             <p>Adipisicing ut sint anim Lorem irure mollit enim officia qui ullamco labore commodo. Amet amet magna</p>
             <div className="icon">
-              <a href="tel:727-709-2806">
+              <a href="tel:000-000-0000">
                 <i className="fa fa-phone-square fa-2x devContact" aria-hidden="true" />
               </a>
               <span>000-000-0000</span>
             </div>
             <div className="icon">
-              <a href="tel:000-000-0000">
+              <a href="email:email@email.com">
                 <i className="fa fa-envelope fa-2x devContact" aria-hidden="true" />
               </a>
               <span>email@email.com</span>
             </div>
           </div>
-          <form action="">
-            <input type="text" placeholder="Name:" />
-            <input type="email" placeholder="Email:" />
-            <input type="tel" placeholder="Phone:" />
-            <textarea type="textarea" placeholder="Message:" />
+          <form onSubmit={formSubmit}>
+            <input type="text" name="name" placeholder="Name:" />
+            <input type="email" name="email" placeholder="Email:" />
+            <input type="tel" name="phone" placeholder="Phone:" />
+            <textarea type="textarea" name="message" placeholder="Message:" />
             <button method="subit">Submit</button>
           </form>
         </div>
