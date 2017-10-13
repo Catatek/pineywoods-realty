@@ -4,8 +4,9 @@
   align-items: center;
   justify-content: center;
   height: 85vh;
-  background-color: #f6f6f6;
-  background-size: cover;
+  background-image: url('../../assets/realestate.jpg');
+  background-size: contain;
+  background-position: bottom;
 }
 .Splash img {
   width: 280px;
