@@ -3,13 +3,13 @@ import { Route, Switch, Index, Link } from 'react-router-dom';
 
 import './Nav.css';
 
-import reality from '../../assets/reality.jpg';
+import realty from '../../assets/realty.png';
 
 class Nav extends Component {
   render() {
     return (
       <div className="Nav">
-        <img src={reality} alt="" />
+        <img src={realty} alt="" />
         <nav>
           <Link to="#">Listings</Link>
           <Link to="#">About</Link>

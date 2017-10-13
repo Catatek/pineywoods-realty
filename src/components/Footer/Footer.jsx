@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css';
 
-import bull from '../../assets/bull.jpg';
+import bull from '../../assets/bull.png';
 
 class Footer extends Component {
   render() {
@@ -12,13 +12,19 @@ class Footer extends Component {
           <span>Tampa, FL 33602</span>
           <div className="icon">
             <a href="tel:000-000-0000">
-              <i className="fa fa-phone-square fa-2x devContact" aria-hidden="true" />
+              <i
+                className="fa fa-phone-square fa-2x devContact"
+                aria-hidden="true"
+              />
             </a>
             <span>000-000-0000</span>
           </div>
           <div className="icon">
             <a href="email: email@email.com">
-              <i className="fa fa-envelope fa-2x devContact" aria-hidden="true" />
+              <i
+                className="fa fa-envelope fa-2x devContact"
+                aria-hidden="true"
+              />
             </a>
             <span>email@email.com</span>
           </div>
@@ -26,7 +32,8 @@ class Footer extends Component {
         <div className="footerLogo">
           <img src={bull} alt="Bull Logo" />
           <p>
-            Nisi mollit amet duis excepteur est consectetur in enim eu est.Nisi pariatur ullamco incididunt voluptate
+            Nisi mollit amet duis excepteur est consectetur in enim eu est.Nisi
+            pariatur ullamco incididunt voluptate
           </p>
         </div>
 

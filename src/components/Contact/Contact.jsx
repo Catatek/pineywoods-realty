@@ -20,20 +20,29 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
-        <h2>Contact US</h2>
+        <h2>Contact Us</h2>
         <div className="contactInfo">
           <div className="info">
             <img src={closing} alt="" />
-            <p>Adipisicing ut sint anim Lorem irure mollit enim officia qui ullamco labore commodo. Amet amet magna</p>
+            <p>
+              Adipisicing ut sint anim Lorem irure mollit enim officia qui
+              ullamco labore commodo. Amet amet magna
+            </p>
             <div className="icon">
               <a href="tel:000-000-0000">
-                <i className="fa fa-phone-square fa-2x devContact" aria-hidden="true" />
+                <i
+                  className="fa fa-phone-square fa-2x devContact"
+                  aria-hidden="true"
+                />
               </a>
               <span>000-000-0000</span>
             </div>
             <div className="icon">
               <a href="email:email@email.com">
-                <i className="fa fa-envelope fa-2x devContact" aria-hidden="true" />
+                <i
+                  className="fa fa-envelope fa-2x devContact"
+                  aria-hidden="true"
+                />
               </a>
               <span>email@email.com</span>
             </div>

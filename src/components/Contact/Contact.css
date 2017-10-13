@@ -1,54 +1,71 @@
 .Contact {
-  background-color: #f5eceb;
+  background-color: #f6f6f6;
   text-align: center;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   border: thin solid #8b8684;
-  border-top: none; }
-  .Contact h2 {
-    margin-top: 2.5em; }
-  .Contact .contactInfo {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .Contact .contactInfo img {
-      width: 20em;
-      height: 10em; }
-    .Contact .contactInfo form {
-      display: flex;
-      flex-direction: column; }
-    .Contact .contactInfo .info {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      padding-right: 10em;
-      padding-top: 3em; }
-      .Contact .contactInfo .info p {
-        width: 20em;
-        text-align: left; }
-      .Contact .contactInfo .info .icon {
-        margin-top: 1em; }
-      .Contact .contactInfo .info .icon a {
-        color: black; }
-      .Contact .contactInfo .info .icon > span {
-        margin-left: 1em;
-        margin-bottom: 1em; }
-    .Contact .contactInfo form {
-      align-items: center; }
-      .Contact .contactInfo form input {
-        border-radius: 0.5em;
-        border: thin solid #8b8684;
-        margin-bottom: 1.5em;
-        width: 17em;
-        height: 2em; }
-      .Contact .contactInfo form textarea {
-        border-radius: 0.5em;
-        border: thin solid #8b8684;
-        margin-bottom: 1.5em;
-        width: 17em;
-        height: 4em; }
-      .Contact .contactInfo form button {
-        border-radius: 0.5em;
-        width: 10em;
-        height: 3em;
-        border: 0.13em solid black; }
+  border-top: none;
+}
+.Contact h2 {
+  margin: 0;
+  padding: 2em 0;
+  font-size: 2em;
+  color: #0d7dc7;
+}
+.Contact .contactInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Contact .contactInfo img {
+  width: 20em;
+  height: 10em;
+}
+.Contact .contactInfo form {
+  display: flex;
+  flex-direction: column;
+}
+.Contact .contactInfo .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 10em;
+  padding-top: 3em;
+}
+.Contact .contactInfo .info p {
+  width: 20em;
+  text-align: left;
+}
+.Contact .contactInfo .info .icon {
+  margin-top: 1em;
+}
+.Contact .contactInfo .info .icon a {
+  color: black;
+}
+.Contact .contactInfo .info .icon > span {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.Contact .contactInfo form {
+  align-items: center;
+}
+.Contact .contactInfo form input {
+  border-radius: 0.5em;
+  border: thin solid #8b8684;
+  margin-bottom: 1.5em;
+  width: 17em;
+  height: 2em;
+}
+.Contact .contactInfo form textarea {
+  border-radius: 0.5em;
+  border: thin solid #8b8684;
+  margin-bottom: 1.5em;
+  width: 17em;
+  height: 4em;
+}
+.Contact .contactInfo form button {
+  border-radius: 0.5em;
+  width: 10em;
+  height: 3em;
+  border: 0.13em solid black;
+}

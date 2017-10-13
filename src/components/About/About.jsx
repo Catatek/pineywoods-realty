@@ -9,18 +9,24 @@ class About extends Component {
         <div className="hello">
           <h2>Hello Everyone!</h2>
           <p>
-            Laborum deserunt sit Lorem consequat anim anim consequat do mollit aute quis qui duis commodo proident anim
-            ullamco. Reprehenderit commodo exercitation nisi cillum tempor eu consectetur exercitation occaecat magna
-            irure ex ullamco culpa sunt. Voluptate sunt nulla dolor irure aliquip labore fugiat labore sint et nostrud.
+            Laborum deserunt sit Lorem consequat anim anim consequat do mollit
+            aute quis qui duis commodo proident anim ullamco. Reprehenderit
+            commodo exercitation nisi cillum tempor eu consectetur exercitation
+            occaecat magna irure ex ullamco culpa sunt. Voluptate sunt nulla
+            dolor irure aliquip labore fugiat labore sint et nostrud.
           </p>
           <p>
-            Laborum deserunt sit Lorem consequat anim anim consequat do mollit aute quis qui duis commodo proident anim
-            ullamco. Reprehenderit commodo exercitation nisi cillum tempor eu consectetur exercitation occaecat magna
-            irure ex ullamco culpa sunt. Voluptate sunt nulla dolor irure aliquip labore fugiat labore sint et nostrud.
+            Laborum deserunt sit Lorem consequat anim anim consequat do mollit
+            aute quis qui duis commodo proident anim ullamco. Reprehenderit
+            commodo exercitation nisi cillum tempor eu consectetur exercitation
+            occaecat magna irure ex ullamco culpa sunt. Voluptate sunt nulla
+            dolor irure aliquip labore fugiat labore sint et nostrud.
           </p>
-          <a href="#">About Us</a>
         </div>
-        <img src={closing} alt="Handshake Deal" />
+        <div class="aboutImage">
+          {/* <a href="#">About Us</a> */}
+          <img src={closing} />
+        </div>
       </div>
     );
   }
