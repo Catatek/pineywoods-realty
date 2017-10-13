@@ -10,6 +10,8 @@ class Footer extends Component {
         <div className="contact">
           <span>100 N Tampa St #2305</span>
           <span>Tampa, FL 33602</span>
+          <br />
+          <span>P: (813) 575-0110</span>
         </div>
         <div className="footerLogo">
           <img src={bull} alt="Bull Logo" />

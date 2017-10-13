@@ -20,7 +20,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px;
+  width: 250px;
+  margin-right: 2.2em;
 }
 
 .Footer .footerLogo img {

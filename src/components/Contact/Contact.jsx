@@ -35,7 +35,7 @@ class Contact extends Component {
               <a href="tel:000-000-0000">
                 <i class="fa fa-phone" aria-hidden="true" />
               </a>
-              <span>000-000-0000</span>
+              <span className="number"> (813) 575-0110</span>
             </div>
           </div>
           <form onSubmit={formSubmit}>
