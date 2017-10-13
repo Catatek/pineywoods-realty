@@ -19,14 +19,13 @@
 .About .hello h2 {
   padding: 0.5em;
   color: #4d4d4d;
-
 }
 .About .hello p {
   color: #4d4d4d;
 }
 
 .aboutImage img {
-  width: 400px;
-  height: 266px;
+  width: 500px;
+  height: 333px;
   padding-top: 0.5em;
 }
