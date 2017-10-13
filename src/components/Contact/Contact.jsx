@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Contact.css';
-import closing from '../../assets/closing.jpg';
+import closing from '../../assets/business.jpg';
 
 const formSubmit = e => {
   e.preventDefault();
@@ -22,8 +22,10 @@ class Contact extends Component {
       <div className="Contact">
         <h2>Contact Us</h2>
         <div className="contactInfo">
-          <div className="info">
+          <div class="closingImage">
             <img src={closing} alt="" />
+          </div>
+          <div className="info">
             <p>
               Adipisicing ut sint anim Lorem irure mollit enim officia qui
               ullamco labore commodo. Amet amet magna
