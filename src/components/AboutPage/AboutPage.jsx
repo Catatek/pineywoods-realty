@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './AboutPage.css';
 
 import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 import AboutSplash from './AboutSplash/AboutSplash';
 import AboutContent1 from './AboutContent1/AboutContent1';
 import AboutContent2 from './AboutContent2/AboutContent2';
@@ -16,6 +17,7 @@ class AboutPage extends Component {
         <AboutContent1 />
         <AboutContent2 />
         <FeaturedListings />
+        <Footer />
       </div>
     );
   }

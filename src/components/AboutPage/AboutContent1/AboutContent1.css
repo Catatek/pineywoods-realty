@@ -1,0 +1,30 @@
+.AboutContent1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.AboutContent1 .hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 5em;
+  width: 35%;
+}
+.AboutContent1 .hello h2 {
+  padding: 0.5em;
+  color: #0d7dc7;
+}
+.AboutContent1 .hello p {
+  color: #4d4d4d;
+}
+
+.AboutContent1 img {
+  width: 500px;
+  height: 333px;
+  padding-top: 0.5em;
+}
