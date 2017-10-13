@@ -5,6 +5,7 @@ import business from '../../assets/business.jpg';
 import home from '../../assets/home.jpg';
 import Footer from '../Footer/Footer';
 import Nav from '../Nav/Nav';
+import Houses from './Houses/Houses';
 
 class Listings extends Component {
   render() {
@@ -14,6 +15,7 @@ class Listings extends Component {
           <span>Listings</span>
         </div>
         <Nav />
+        <Houses />
         <div className="ListingInfo">
           <img src={business} alt="" />
           <p>

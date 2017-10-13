@@ -1,0 +1,12 @@
+.item > img {
+  display: flex;
+  /*align-items: center;*/
+  align-content: center;
+  flex-direction: column;
+  height: 10em;
+  width: 15em;
+}
+
+.item span {
+  margin: 0.5em;
+}
