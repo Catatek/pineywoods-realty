@@ -1,18 +1,21 @@
 .ListingInfo {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 60vh;
   width: 100%;
-  margin: 0.2em;
+  margin: 0.4em;
 }
 
 .ListingInfo > img {
-  height: 100%;
+  height: 80%;
   width: ;
 }
 
 .ListingInfo > p {
   margin: 1em;
   padding: 1em;
+  width: 40%;
+  line-height: 25px;
+  color: #4d4d4d;
 }

@@ -16,7 +16,7 @@ class Listings extends Component {
       <div className="Listings">
         <ListingSplash />
         <Nav />
-        <About />
+        <ListingInfo />
         <Houses />
         <ContactContainer />
         <Houses />
