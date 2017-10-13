@@ -6,7 +6,7 @@
   margin-top: 2em;
 }
 
-.FeaturedListings > a {
+.FeaturedListings a {
   text-decoration: none;
   color: black;
   height: 3em;
