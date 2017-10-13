@@ -1,0 +1,7 @@
+.AboutSplash {
+  width: 100%;
+  height: 80vh;
+  background-image: url('../../../assets/business.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
