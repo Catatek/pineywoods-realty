@@ -15,7 +15,7 @@ class Nav extends Component {
         <nav>
           <Link to="/listings">Listings</Link>
           <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contactPage">Contact</Link>
         </nav>
       </div>
     );
