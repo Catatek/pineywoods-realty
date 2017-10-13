@@ -9,7 +9,9 @@ class Nav extends Component {
   render() {
     return (
       <div className="Nav">
-        <img src={realty} alt="" />
+        <Link to="/">
+          <img src={realty} alt="" />
+        </Link>
         <nav>
           <Link to="/listings">Listings</Link>
           <Link to="/about">About</Link>
