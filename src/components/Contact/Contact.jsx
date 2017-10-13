@@ -27,8 +27,9 @@ class Contact extends Component {
           </div>
           <div className="info">
             <p>
-              Adipisicing ut sint anim Lorem irure mollit enim officia qui
-              ullamco labore commodo. Amet amet magna
+              We'd love to hear from you and better understand your objectives
+              when it comes to buying and selling your home. Please contact us
+              either by phone or leave a message through our form. Thank you.
             </p>
             <div className="icon">
               <a href="tel:000-000-0000">

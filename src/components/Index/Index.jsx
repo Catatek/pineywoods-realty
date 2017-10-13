@@ -7,6 +7,7 @@ import Nav from '../Nav/Nav';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import ListingsHome from '../ListingsHome/ListingsHome';
 
 class Index extends Component {
   render() {
@@ -15,6 +16,7 @@ class Index extends Component {
         <Splash />
         <Nav />
         <About />
+        <ListingsHome />
         <Contact />
         <Footer />
       </div>
