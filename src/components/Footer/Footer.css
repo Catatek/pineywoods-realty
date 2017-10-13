@@ -1,12 +1,13 @@
 .Footer {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .Footer .contact {
   display: flex;
   flex-direction: column;
+  margin-left: 4em;
 }
 .Footer .contact i {
   color: #527fc0;
@@ -20,12 +21,13 @@
   font-size: 12px;
   width: 20em;
 }
-.Footer .social i {
-  margin-right: 0.5em;
+.Footer .social  {
+  margin-right: 4em;
 }
 
 .social i {
   color: #527fc0;
+  margin-right: 0.5em;
 }
 
 .icon {

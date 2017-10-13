@@ -23,14 +23,13 @@ class Footer extends Component {
         <div className="footerLogo">
           <img src={bull} alt="Bull Logo" />
           <p>
-          &amp 2017
+
           </p>
         </div>
 
         <div className="social">
-          <i className="fa fa-facebook-square fa-3x" aria-hidden="true" />
-          <i className="fa fa-instagram fa-3x" aria-hidden="true" />
-          <i className="fa fa-twitter-square fa-3x" aria-hidden="true" />
+          <a href="https://www.facebook.com/mytamparealtors" target="_blank"><i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/therealespireteam/?hl=en" target="_blank"><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
     );
