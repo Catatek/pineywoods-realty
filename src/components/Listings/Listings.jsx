@@ -7,6 +7,7 @@ import Nav from '../Nav/Nav';
 import Houses from './Houses/Houses';
 import ListingInfo from './ListingInfo/ListingInfo';
 import ListingSplash from './ListingSplash/ListingSplash';
+import ContactContainer from '../ContactContainer/ContactContainer';
 
 class Listings extends Component {
   render() {
@@ -15,7 +16,7 @@ class Listings extends Component {
         <ListingSplash />
         <Nav />
         <Houses />
-        <ListingInfo />
+        <ContactContainer />
         <Houses />
         <Footer />
       </div>
