@@ -17,7 +17,6 @@ class Listings extends Component {
         <Houses />
         <ListingInfo />
         <Houses />
-
         <Footer />
       </div>
     );
