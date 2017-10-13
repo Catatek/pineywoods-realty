@@ -6,7 +6,8 @@ import Footer from '../Footer/Footer';
 import AboutSplash from './AboutSplash/AboutSplash';
 import AboutContent1 from './AboutContent1/AboutContent1';
 import AboutContent2 from './AboutContent2/AboutContent2';
-import FeaturedListings from './FeaturedListings/FeaturedListings';
+import ListingsHome from '../ListingsHome/ListingsHome';
+import ContactContainer from '../ContactContainer/ContactContainer';
 
 class AboutPage extends Component {
   render() {
@@ -16,7 +17,8 @@ class AboutPage extends Component {
         <Nav />
         <AboutContent1 />
         <AboutContent2 />
-        <FeaturedListings />
+        <ListingsHome />
+        <ContactContainer />
         <Footer />
       </div>
     );
