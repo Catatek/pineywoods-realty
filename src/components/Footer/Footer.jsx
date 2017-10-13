@@ -10,7 +10,7 @@ class Footer extends Component {
         <div className="contact">
           <span>100 N Tampa St #2305</span>
           <span>Tampa, FL 33602</span>
-          <div className="icon">
+          {/* <div className="icon">
             <a href="tel:000-000-0000">
               <i
                 className="fa fa-phone fa-2x devContact"
@@ -18,13 +18,12 @@ class Footer extends Component {
               />
             </a>
             <span>000-000-0000</span>
-          </div>
+          </div> */}
         </div>
         <div className="footerLogo">
           <img src={bull} alt="Bull Logo" />
           <p>
-            Nisi mollit amet duis excepteur est consectetur in enim eu est.Nisi
-            pariatur ullamco incididunt voluptate
+          &amp 2017
           </p>
         </div>
 
