@@ -1,0 +1,23 @@
+.FeaturedListings {
+  text-align: center;
+}
+
+.FeaturedListings > h2 {
+  margin-top: 2em;
+}
+
+.FeaturedListings > a {
+  text-decoration: none;
+  color: black;
+  height: 3em;
+  text-decoration: none;
+  border: 0.1em solid black;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.featuedItems {
+  display: flex;
+  justify-content: center;
+}
