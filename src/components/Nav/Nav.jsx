@@ -11,9 +11,9 @@ class Nav extends Component {
       <div className="Nav">
         <img src={realty} alt="" />
         <nav>
-          <Link to="#">Listings</Link>
-          <Link to="#">About</Link>
-          <Link to="#">Contact</Link>
+          <Link to="/listings">Listings</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
       </div>
     );
