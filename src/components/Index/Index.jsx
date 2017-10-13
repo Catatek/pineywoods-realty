@@ -8,6 +8,7 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Listings from '../Listings/Listings';
+import Houses from '../Listings/Houses/Houses';
 
 class Index extends Component {
   render() {
@@ -16,8 +17,8 @@ class Index extends Component {
         <Splash />
         <Nav />
         <About />
-        <Listings />
         <Contact />
+        <Houses />
         <Footer />
       </div>
     );
