@@ -8,6 +8,7 @@ import Houses from './Houses/Houses';
 import ListingInfo from './ListingInfo/ListingInfo';
 import ListingSplash from './ListingSplash/ListingSplash';
 import ContactContainer from '../ContactContainer/ContactContainer';
+import About from '../About/About';
 
 class Listings extends Component {
   render() {
@@ -15,6 +16,7 @@ class Listings extends Component {
       <div className="Listings">
         <ListingSplash />
         <Nav />
+        <About />
         <Houses />
         <ContactContainer />
         <Houses />
