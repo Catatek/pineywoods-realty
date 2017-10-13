@@ -1,12 +1,17 @@
-.item > img {
+.Houses {
   display: flex;
-  /*align-items: center;*/
-  align-content: center;
-  flex-direction: column;
-  height: 10em;
-  width: 15em;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.item span {
-  margin: 0.5em;
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 2em;
+}
+
+.item > img {
+  height: 10em;
+  width: 15em;
 }

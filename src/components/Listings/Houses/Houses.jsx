@@ -11,6 +11,26 @@ class Houses extends Component {
           <img src={listing} alt="" />
           <span>1000 10th Ave North</span>
         </div>
+        <div className="item">
+          <img src={listing} alt="" />
+          <span>1000 10th Ave North</span>
+        </div>
+        <div className="item">
+          <img src={listing} alt="" />
+          <span>1000 10th Ave North</span>
+        </div>
+        <div className="item">
+          <img src={listing} alt="" />
+          <span>1000 10th Ave North</span>
+        </div>
+        <div className="item">
+          <img src={listing} alt="" />
+          <span>1000 10th Ave North</span>
+        </div>
+        <div className="item">
+          <img src={listing} alt="" />
+          <span>1000 10th Ave North</span>
+        </div>
       </div>
     );
   }
