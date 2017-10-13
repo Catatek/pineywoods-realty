@@ -13,20 +13,11 @@ class Footer extends Component {
           <div className="icon">
             <a href="tel:000-000-0000">
               <i
-                className="fa fa-phone-square fa-2x devContact"
+                className="fa fa-phone fa-2x devContact"
                 aria-hidden="true"
               />
             </a>
             <span>000-000-0000</span>
-          </div>
-          <div className="icon">
-            <a href="email: email@email.com">
-              <i
-                className="fa fa-envelope fa-2x devContact"
-                aria-hidden="true"
-              />
-            </a>
-            <span>email@email.com</span>
           </div>
         </div>
         <div className="footerLogo">

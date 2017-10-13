@@ -3,8 +3,6 @@
   text-align: center;
   height: 90vh;
   width: 100%;
-  border: thin solid #8b8684;
-  border-top: none;
 }
 .Contact h2 {
   margin: 0;
@@ -15,8 +13,9 @@
 .Contact .contactInfo {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-around;
+  margin-top: 5em;
 }
 .Contact .contactInfo img {
   width: 325px;
@@ -30,7 +29,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   padding-top: 3em;
+  width: 15em;
 }
 .Contact .contactInfo .info p {
   width: 20em;
@@ -47,27 +48,32 @@
   margin-bottom: 1em;
 }
 .Contact .contactInfo form {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .Contact .contactInfo form input {
   border-radius: 0.5em;
   border: 0px;
   margin-bottom: 1.5em;
   padding: 0.5em;
-  width: 17em;
+  width: 20em;
   height: 2em;
+  outline: none;
 }
 .Contact .contactInfo form textarea {
   border-radius: 0.5em;
   border: 0px;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.2em;
   padding: 0.5em;
-  width: 17em;
+  width: 20em;
   height: 4em;
+  outline: none;
 }
 .Contact .contactInfo form button {
   border-radius: 0.5em;
-  width: 18em;
+  width: 20em;
   height: 3em;
   border: none;
   outline: none;
@@ -82,4 +88,9 @@
 
 .closingImage {
   display: flex;
+}
+
+.fa-phone {
+  font-size: 2em;
+  color: #3c66a3;
 }
