@@ -11,7 +11,7 @@
   margin-left: 4em;
 }
 .Footer .contact i {
-  color: #527fc0;
+  color: #0a5f97;
   margin-right: 0.5em;
   margin-top: 0.2em;
 }
@@ -37,10 +37,16 @@
 }
 
 .social i {
-  color: #527fc0;
+  color: #0a5f97;
   margin-right: 0.5em;
 }
 
 .icon {
   margin-top: 1.2em;
+}
+
+.Footer h3 {
+  padding: 0;
+  margin: 0;
+  color: #515352;
 }

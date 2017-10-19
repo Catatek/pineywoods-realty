@@ -9,6 +9,7 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import ListingsHome from '../ListingsHome/ListingsHome';
 import Houses from '../Listings/Houses/Houses';
+import MortgageApproval from '../MortgageApproval/MortgageApproval';
 
 class Index extends Component {
   render() {
@@ -17,6 +18,7 @@ class Index extends Component {
         <Splash />
         <Nav />
         <About />
+        <MortgageApproval />
         <ListingsHome />
         <Contact />
         <Houses />

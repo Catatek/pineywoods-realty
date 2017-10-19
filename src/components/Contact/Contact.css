@@ -8,7 +8,7 @@
   margin: 0;
   padding: 2em 0;
   font-size: 2em;
-  color: #0d7dc7;
+  color: #0a5f97;
 }
 .Contact .contactInfo {
   display: flex;
@@ -42,7 +42,7 @@
   margin-top: 1em;
 }
 .Contact .contactInfo .info .icon a {
-  color: #527fc0;
+  color: #0a5f97;
 }
 .Contact .contactInfo .info .icon > span {
   margin-left: 1em;
@@ -79,12 +79,12 @@
   height: 3em;
   border: none;
   outline: none;
-  background-color: #527fc0;
+  background-color: #0a5f97;
   color: #ffffff;
 }
 
 .Contact .contactInfo form button:hover {
-  background-color: #3c66a3;
+  background-color: #0d7dc7;
   cursor: pointer;
 }
 
@@ -94,7 +94,7 @@
 
 .fa-phone {
   font-size: 2em;
-  color: #3c66a3;
+  color: #0a5f97;
 }
 
 .icon {

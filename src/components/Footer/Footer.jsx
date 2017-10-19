@@ -15,6 +15,7 @@ class Footer extends Component {
         </div>
         <div className="footerLogo">
           <img src={bull} alt="Bull Logo" />
+          <h3>PineyWoods Realty</h3>
           <p>
             © 2017 MY FLORIDA REGIONAL MLS®. ALL RIGHTS RESERVED. INFORMATION
             DEEMED RELIABLE, BUT NOT GUARANTEED.

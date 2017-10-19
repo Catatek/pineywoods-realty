@@ -42,6 +42,7 @@ class Contact extends Component {
             <input type="text" name="name" placeholder="Name:" />
             <input type="email" name="email" placeholder="Email:" />
             <input type="tel" name="phone" placeholder="Phone:" />
+            <input type="text" name="city" placeholder="City:" />
             <textarea type="textarea" name="message" placeholder="Message:" />
             <button method="subit">Submit</button>
           </form>
