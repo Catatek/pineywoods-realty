@@ -10,6 +10,8 @@ import Footer from '../Footer/Footer';
 import ListingsHome from '../ListingsHome/ListingsHome';
 import Houses from '../Listings/Houses/Houses';
 import MortgageApproval from '../MortgageApproval/MortgageApproval';
+import SocialMedia from '../SocialMedia/SocialMedia';
+import Testimonials from '../Testimonials/Testimonials';
 
 class Index extends Component {
   render() {
@@ -22,6 +24,8 @@ class Index extends Component {
         <ListingsHome />
         <Contact />
         <Houses />
+        <Testimonials />
+        <SocialMedia />
         <Footer />
       </div>
     );
