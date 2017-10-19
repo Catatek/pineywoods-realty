@@ -3,11 +3,7 @@ import './ListingSplash.css';
 
 class ListingSplash extends Component {
   render() {
-    return (
-      <div className="ListingSplash">
-        <span>Listings</span>
-      </div>
-    );
+    return <div className="ListingSplash" />;
   }
 }
 
