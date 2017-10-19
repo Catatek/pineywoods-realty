@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css';
 
-import bull from '../../assets/bull.png';
+import bull from '../../assets/pineywoodsLogo.png';
 
 class Footer extends Component {
   render() {
@@ -15,7 +15,6 @@ class Footer extends Component {
         </div>
         <div className="footerLogo">
           <img src={bull} alt="Bull Logo" />
-          <h3>PineyWoods Realty</h3>
           <p>
             © 2017 MY FLORIDA REGIONAL MLS®. ALL RIGHTS RESERVED. INFORMATION
             DEEMED RELIABLE, BUT NOT GUARANTEED.
